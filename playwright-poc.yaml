@@ -1,0 +1,214 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'windows-latest'
+
+parameters:
+  - name: targetEnv
+    type: string
+    default: 'main'
+    values:
+    - main
+    - ppd
+    - uat
+    - local
+  - name: testSuite
+    type: string
+    default: 'SmokeTest'
+    values:
+    - Full
+    - SmokeTest    
+
+variables:
+  - group: accord-vars
+  - name: mailsacApiKey
+    value: $(MAILSAC_API_KEY)
+  - name: basicAuthUsername
+    value: $(BASIC_AUTH_USERNAME)
+  - name: basicAuthPassword
+    value: $(BASIC_AUTH_PASSWORD)
+  - name: EnvironmentUnderTest
+    value: ${{ parameters.targetEnv }}
+  - name: buildConfiguration
+    value: 'Release'
+  - name: screenshotsExist
+    value: 'false'
+
+  - ${{ if eq(parameters.targetEnv, 'main') }}:
+    - name: apiUsername
+      value: $(MAIN_API_USERNAME)
+    - name: apiPassword
+      value: $(MAIN_API_PASSWORD)
+    - name: databaseHost
+      value: $(MAIN_DATABASE_HOST)
+    - name: databaseUser
+      value: $(MAIN_DATABASE_USER)
+    - name: databasePassword
+      value: $(MAIN_DATABASE_PASSWORD)
+    - name: sapDatabase
+      value: $(MAIN_SAP_DATABASE)
+    - name: dwhDatabase
+      value: $(MAIN_DWH_SYNC_DATABASE_DB)
+    - name: customerProfilesDatabase
+      value: $(MAIN_CUSTOMERPROFILES_DATABASE_DB)
+    - name: standardsDatabase
+      value: $(MAIN_DATABASE_DB)
+    - name: clusterName
+      value: 'accord-aks-cluster'
+    - name: resourceGroup
+      value: 'BSI-UKS-ACCORD-CI'
+
+  - ${{ if eq(parameters.targetEnv, 'ppd') }}:
+    - name: apiUsername
+      value: $(PPD_API_USERNAME)
+    - name: apiPassword
+      value: $(PPD_API_PASSWORD)
+    - name: databaseHost
+      value: $(PPD_DATABASE_HOST)
+    - name: databaseUser
+      value: $(PPD_DATABASE_USER)
+    - name: databasePassword
+      value: $(PPD_DATABASE_PASSWORD)
+    - name: sapDatabase
+      value: $(PPD_SAP_INTEGRATION_DATABASE_DB)
+    - name: dwhDatabase
+      value: $(PPD_DWH_SYNC_DATABASE_DB)
+    - name: customerProfilesDatabase
+      value: $(PPD_CUSTOMERPROFILES_DATABASE_DB)
+    - name: standardsDatabase
+      value: $(PPD_DATABASE_DB)
+    - name: clusterName
+      value: 'accord-aks-cluster'
+    - name: resourceGroup
+      value: 'BSI-UKS-ACCORD-CI'
+
+  - ${{ if eq(parameters.targetEnv, 'uat') }}:
+    - name: apiUsername
+      value: $(UAT_API_USERNAME)
+    - name: apiPassword
+      value: $(UAT_API_PASSWORD)
+    - name: databaseHost
+      value: $(UAT_DATABASE_HOST)
+    - name: databaseUser
+      value: $(UAT_DATABASE_USER)
+    - name: databasePassword
+      value: $(UAT_DATABASE_PASSWORD)
+    - name: sapDatabase
+      value: $(UAT_SAP_INTEGRATION_DATABASE_DB)
+    - name: dwhDatabase
+      value: $(UAT_DWH_SYNC_DATABASE_DB)
+    - name: customerProfilesDatabase
+      value: $(UAT_CUSTOMERPROFILES_DATABASE_DB)
+    - name: standardsDatabase
+      value: $(UAT_DATABASE_DB)
+    - name: clusterName
+      value: 'BSI-UKS-UAT-KNOWL-AKS-CLUSTER'
+    - name: resourceGroup
+      value: 'BSI-UKS-UAT-KNOWLEDGE-MNGMNT-RG'
+
+jobs:
+- job: E2E
+  timeoutInMinutes: 60
+  steps:
+  - task: UseDotNet@2
+    inputs:
+      packageType: 'sdk'
+      version: '8.x'
+
+  - script: |
+      dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
+    displayName: 'Install SpecFlow LivingDoc CLI'
+
+  - script: |
+      dotnet tool install --global Microsoft.Playwright.CLI
+      dotnet add BsiPlaywrightPoc/BsiPlaywrightPoc.csproj package Microsoft.Playwright
+      dotnet restore BsiPlaywrightPoc/BsiPlaywrightPoc.csproj
+      dotnet build --configuration $(buildConfiguration) BsiPlaywrightPoc/BsiPlaywrightPoc.csproj
+    displayName: 'Add and Build Playwright Package'
+  
+  - script: |
+      playwright install
+    displayName: 'Install Playwright Browsers'
+
+  - script: |
+      dotnet restore
+    displayName: 'Restore NuGet Packages'
+  
+  - script: |
+      dotnet build --configuration $(buildConfiguration)
+    displayName: 'Build Solution'
+  
+  - script: |
+      echo "DEBUG: ApiUsername: $(apiUsername)"
+      echo "DEBUG: ApiPassword: $(apiPassword)"
+      echo "DEBUG: DatabaseHost: $(databaseHost)"
+      echo "DEBUG: DatabaseUser: $(databaseUser)"
+      echo "DEBUG: DatabasePassword: $(databasePassword)"
+      echo "DEBUG: SapDatabase: $(sapDatabase)"
+      echo "DEBUG: EnvironmentUnderTest: $(EnvironmentUnderTest)"
+      echo "DEBUG: ResourceGroup: $(resourceGroup)"
+    displayName: 'Log Environment Variables for Debugging'
+
+  - script: |
+      dotnet test --configuration $(buildConfiguration) --no-build --logger trx --results-directory $(Build.ArtifactStagingDirectory)/TestResults
+    displayName: 'Run Tests'
+    env:
+      KnowledgeBasicAuth__UserName: $(basicAuthUsername)
+      KnowledgeBasicAuth__Password: $(basicAuthPassword)
+      ApiBasicAuth__UserName: $(apiUsername)
+      ApiBasicAuth__Password: $(apiPassword)
+      DbConnectionDetails__StandardDb: $(standardsDatabase)
+      DbConnectionDetails__CustomerProfileDb: $(customerProfilesDatabase)
+      DbConnectionDetails__SapIntegrationDb: $(sapDatabase)
+      DbConnectionDetails__DwhDb: $(dwhDatabase)
+      DbConnectionDetails__DbCredentials__ServerName: $(databaseHost)
+      DbConnectionDetails__DbCredentials__DatabaseUser: $(databaseUser)
+      DbConnectionDetails__DbCredentials__DatabasePassword: $(databasePassword)
+      EnvironmentUnderTest: $(EnvironmentUnderTest)
+    continueOnError: false  # This ensures the task fails if tests fail, but subsequent tasks can still run based on the outcome of this task.
+
+  - powershell: |
+      $screenshotPath = "$(Build.SourcesDirectory)/BsiPlaywrightPoc/bin/$(buildConfiguration)/net8.0/Screenshots"
+      Write-Host "Checking if screenshots exist at: $screenshotPath"
+      if (Test-Path $screenshotPath) {
+        Write-Host "Screenshots directory found."
+        Write-Host "##vso[task.setvariable variable=screenshotsExist]true"
+      } else {
+        Write-Host "No screenshots directory found."
+      }
+    displayName: 'Check for Screenshots'
+    condition: succeededOrFailed()  # Run this step whether tests passed or failed
+
+  # Publish Test Results - Always publish if the tests were executed
+  - task: PublishTestResults@2
+    inputs:
+      testResultsFormat: 'VSTest'
+      testResultsFiles: '$(Build.ArtifactStagingDirectory)/TestResults/*.trx'
+      mergeTestResults: true
+      failTaskOnFailedTests: true # Mark the pipeline as failed if there are failed tests
+    displayName: 'Publish Test Results'
+    condition: succeededOrFailed()  # Run this step whether tests passed or failed
+    
+  # Generate LivingDoc - Only generate if the tests ran    
+  - script: |
+      echo "Generating LivingDoc..."
+      livingdoc test-assembly $(Build.SourcesDirectory)/BsiPlaywrightPoc/bin/$(buildConfiguration)/net8.0/BsiPlaywrightPoc.dll -t $(Build.SourcesDirectory)/BsiPlaywrightPoc/bin/$(buildConfiguration)/net8.0/TestExecution.json -o $(Build.ArtifactStagingDirectory)/LivingDoc.html
+    displayName: 'Generate LivingDoc'
+    condition: succeededOrFailed()  # Run this step whether tests passed or failed
+
+  # Publish LivingDoc - Only publish if LivingDoc was generated
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: '$(Build.ArtifactStagingDirectory)/LivingDoc.html'
+      ArtifactName: 'LivingDoc'
+    displayName: 'Publish LivingDoc'
+    condition: always()
+  
+  # Publish Screenshots - Only publish if screenshots exist and the screenshotsExist variable is true
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: '$(Build.SourcesDirectory)/BsiPlaywrightPoc/bin/$(buildConfiguration)/net8.0/Screenshots'
+      ArtifactName: 'Screenshots'
+    displayName: 'Publish Screenshots'
+    condition: and(succeededOrFailed(), eq(variables['screenshotsExist'], 'true')) # Only publish if screenshots exist

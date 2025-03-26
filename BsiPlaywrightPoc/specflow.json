@@ -1,0 +1,28 @@
+﻿{
+  "bindingCulture": {
+    "language": "en-us"
+  },
+  "language": {
+    "feature": "en-us"
+  },
+  "specFlow": {
+    "trace": {
+      "traceSuccessfulSteps": true,
+      "traceTimings": true
+    },
+    "runtime": {
+      "stopAtFirstError": false,
+      "missingOrPendingStepsOutcome": "Error"
+    }
+  },
+  "plugins": [
+    {
+      "name": "SpecFlow.NUnit",
+      "type": "Runtime"
+    },
+    {
+      "name": "SpecFlow.Tools.MsBuild.Generation",
+      "type": "Generator"
+    }
+  ]
+}

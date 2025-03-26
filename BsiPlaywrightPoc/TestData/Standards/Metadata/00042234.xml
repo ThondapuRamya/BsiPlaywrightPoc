@@ -1,0 +1,1166 @@
+<metadata>
+  <biblioCore>
+    <assetGroup>BSStandards</assetGroup>
+    <assetSubGroup>BS</assetSubGroup>
+    <assetType>Full</assetType>
+    <originator xmlns:loc="http://www.iso.org/ns/localization" xmlns:tmp="http://www.iso.org/ns/tmp" xmlns:mle="http://www.iso.org/ns/mle" xmlns:isosts="http://www.iso.org/ns/isosts" xmlns:tbx="urn:iso:std:iso:30042:ed-1" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink">BSI</originator>
+    <publisher xmlns:loc="http://www.iso.org/ns/localization" xmlns:tmp="http://www.iso.org/ns/tmp" xmlns:mle="http://www.iso.org/ns/mle" xmlns:isosts="http://www.iso.org/ns/isosts" xmlns:tbx="urn:iso:std:iso:30042:ed-1" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink">BSI</publisher>
+    <statuses>
+      <activeStatus>Active</activeStatus>
+      <metadataStatus>Publishable</metadataStatus>
+      <editionStatus>Confirmed</editionStatus>
+    </statuses>
+    <assetTitles>
+      <assetTitle>
+	<assetTitleLanguage>EN-English</assetTitleLanguage>
+	<assetTitleType>Main</assetTitleType>
+	<assetTitleText>Specification. Orthodontic wire and tape and dental ligature wire</assetTitleText>
+      </assetTitle>
+    </assetTitles>
+    <assetDocumentLanguage>
+      <numberOfLanguages>01</numberOfLanguages>
+      <language>EN-English</language>
+    </assetDocumentLanguage>
+    <NIBS>No</NIBS>
+    <NationalCommitteeReference>CH/106/2</NationalCommitteeReference>
+    <MedicalKeywords>Orthodontic wire, Orthodontic tape, Dental ligature wire</MedicalKeywords>
+    <specialAnnouncement>N</specialAnnouncement>
+  </biblioCore>
+  <assetIdentifiers>
+    <assetIdentifier>
+      <AssetID>01-2534867906</AssetID>
+    </assetIdentifier>
+    <assetIdentifier>
+      <PrimaryDesignator>BS 3507:1976</PrimaryDesignator>
+    </assetIdentifier>
+    <assetIdentifier>
+      <PerinormID>00042234</PerinormID>
+    </assetIdentifier>
+    <assetIdentifier>
+      <SAPID>000000000000042234</SAPID>
+    </assetIdentifier>
+    <assetIdentifier>
+      <ISBN>0 580 09442 1</ISBN>
+    </assetIdentifier>
+    <assetDesignatorDetails>
+      <assetDesignatorNumberElement>3507</assetDesignatorNumberElement>
+      <assetDesignatorYear>1976</assetDesignatorYear>
+    </assetDesignatorDetails>
+    <assetDOI>
+      <datedDOI>
+	<doiDesignator>BS 3507:1976</doiDesignator>
+	<doi>doi.org/10.3403/00042234</doi>
+	<doiResourceURL>https://linkresolver.bsigroup.com/junction/resolve/000000000000042234?restype=standard</doiResourceURL>
+	<doiStatus>Accepted</doiStatus>
+	<dateCreatedDOI>2013-11-13</dateCreatedDOI>
+	<dateUpdatedDOI>2018-05-19</dateUpdatedDOI>
+      </datedDOI>
+      <undatedDOI>
+	<doiDesignator>BS 3507</doiDesignator>
+	<doi>doi.org/10.3403/00042234U</doi>
+	<doiResourceURL>https://linkresolver.bsigroup.com/junction/resolve/000000000000042234?restype=undated</doiResourceURL>
+	<doiStatus>Accepted</doiStatus>
+	<dateCreatedDOI>2015-06-10</dateCreatedDOI>
+	<dateUpdatedDOI>2018-05-19</dateUpdatedDOI>
+      </undatedDOI>
+    </assetDOI>
+  </assetIdentifiers>
+  <usages>
+    <usage>
+      <ddid>DD-3264507318</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:02:10</lastRun>
+      <DDName>Content Supply to Compliance Navigator -ExCo-Daily Delta</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-9351090790</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-02T23:39:19</lastRun>
+      <DDName>BSI Metadata Supply to Customers - Monthly - Delta - XML</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-9401287130</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:49:25</lastRun>
+      <DDName>Content Supply to Compliance Navigator - bsiRedlineXML-Daily Delta</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-7455201310</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-09-16T23:47:48</lastRun>
+      <DDName>Metadata Supply to Shop - Scope ONLY - Full - TEST</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-3762673621</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-07-12T15:00:00</lastRun>
+      <DDName>Content supply to third parties</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-9545395350</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:02:08</lastRun>
+      <DDName>ASTM content to DAR and PODW</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1532023726</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:45:29</lastRun>
+      <DDName>BSI Metadata Supply to Customers - Daily - Delta - XML</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-5798698050</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2018-01-30T00:00:00</lastRun>
+      <DDName>FG - Test</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2700427972</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-05-02T23:22:34</lastRun>
+      <DDName>Test DD</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2839485688</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:47:19</lastRun>
+      <DDName>BSI Metadata Supply to IHS - Daily - Delta - XML</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2275498688</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:45:43</lastRun>
+      <DDName>BSI Metadata Supply to Customers - Daily - Delta - CSV</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2731694120</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-19T23:00:16</lastRun>
+      <DDName>Metadata Supply to Compliance Navigator - Data Quality</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-4181690510</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:45:16</lastRun>
+      <DDName>Content Supply to Compliance Navigator - bsiXML-Daily Delta</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1365131446</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:44:38</lastRun>
+      <DDName>BSI Content supply to CSO-Sftp Test</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2532658123</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-05T23:44:36</lastRun>
+      <DDName>BSI Metadata Supply to AFNOR - Monthly - Delta - XML</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-4294101178</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-25T15:02:15</lastRun>
+      <DDName>Content Supply to PODW</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-6215031470</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-25T15:00:43</lastRun>
+      <DDName>Content supply to BSOL and Shop (DAR)</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2844449499</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-03-12T09:00:30</lastRun>
+      <DDName>Shop Metadata FLUSH DD - individual XML (LIVE)</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1201664328</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:02:15</lastRun>
+      <DDName>BSI Metadata Supply to Customers - Weekly - Full - XML</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1360096854</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-01-30T23:00:01</lastRun>
+      <DDName>Andrea Test</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1044109080</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-12T23:03:59</lastRun>
+      <DDName>BSI Metadata Supply to Customers - Full - Test DD</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2180593044</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-11-11T23:27:20</lastRun>
+      <DDName>OSS Trigger - EC+</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-7361319000</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:00:20</lastRun>
+      <DDName>Content Supply to Compliance Navigator - Term mapping Daily Delta</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2926603553</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2018-05-04T14:00:01</lastRun>
+      <DDName>FTP Delivery Test</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-3480198894</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:00:26</lastRun>
+      <DDName>BSI Metadata Supply to IHS - Daily - Delta - CSV</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1551581244</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-12-17T23:04:01</lastRun>
+      <DDName>Content Supply to Compliance Navigator - SS-link - Daily Delta</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-3300765034</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-11T23:09:08</lastRun>
+      <DDName>BSI Metadata Supply to Customers - Weekly - Delta - CSV</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-3861334113</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-10-02T23:04:41</lastRun>
+      <DDName>BSI Metadata Supply to IHS - Monthly - Full - XML</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-3621026837</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-14T23:25:45</lastRun>
+      <DDName>BSI Metadata Supply to All Customers - One Off - Full - XML</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1827830901</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:00:07</lastRun>
+      <DDName>CN 3rd Party: Metadata Supply to Compliance Navigator - Biblio - Daily - Full</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-3796541270</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:07:05</lastRun>
+      <DDName>CN 3rd Party: Metadata Supply to Compliance Navigator - Biblio - Daily - Delta</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-3614001579</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-25T15:01:37</lastRun>
+      <DDName>Standard Dev Portal (Live)</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-3249859920</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2018-05-10T23:00:12</lastRun>
+      <DDName>OSS Trigger - IEC</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2140895149</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2018-01-30T00:00:00</lastRun>
+      <DDName>Search SCR for specific assets - xml output</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-3002330767</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:49:02</lastRun>
+      <DDName>BSI Content supply to CSO</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-3749215436</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2018-07-15T23:00:34</lastRun>
+      <DDName>Workflow trigger - Compliance Navigator redlining</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1141308143</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-10-12T23:12:20</lastRun>
+      <DDName>BSI Metadata Supply to Customers - Weekly - Full - CSV</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1967722377</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-25T15:01:25</lastRun>
+      <DDName>Content Supply to PDF Archive - VOR</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-4285049564</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-25T15:00:52</lastRun>
+      <DDName>Content Supply to Compliance Navigator - Term mapping Hourly Delta</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2133573811</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-03-11T23:05:58</lastRun>
+      <DDName>Shop Metadata DELTA DD - individual XML (LIVE)</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-3407511931</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-19T23:05:29</lastRun>
+      <DDName>BSI Metadata Supply to Customers - Weekly - Delta - XML</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-3751000613</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-13T23:02:37</lastRun>
+      <DDName>BSI Metadata Supply to All Customers - One Off - Full - CSV</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1744577032</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2018-05-10T23:00:12</lastRun>
+      <DDName>OSS Trigger - Compliance Navigator</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1566321220</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-25T15:01:00</lastRun>
+      <DDName>Content Supply to Compliance Navigator - bsiXML-Hourly Delta</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-4292360360</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-12-04T23:06:22</lastRun>
+      <DDName>BSI Metadata Supply to Customers - Monthly - Delta - CSV</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-9601803870</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2018-05-10T23:00:12</lastRun>
+      <DDName>OSS Trigger - Compliance Navigator-bsiTermXML</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2328515046</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-07-19T15:05:37</lastRun>
+      <DDName>Test - XML Content Supply</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-3710081606</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-05-15T23:00:34</lastRun>
+      <DDName>Metadata Supply to Compliance Navigator - Biblio - Daily - Full</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-7686790710</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-09-01T23:38:21</lastRun>
+      <DDName>BSI Metadata Supply to IHS - Monthly - Full - CSV</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1431416439</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-03-11T23:03:13</lastRun>
+      <DDName>Shop Metadata Deletions DELTA DD - individual XML (LIVE)</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-9833650890</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2018-01-30T00:00:00</lastRun>
+      <DDName>Metadata Supply to PODW - Manual Trigger</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2064352238</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:07:09</lastRun>
+      <DDName>BSI Metadata Supply to IHS - Daily - Full ID Listing - XML</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1612113440</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-25T15:01:36</lastRun>
+      <DDName>Metadata Supply to PODW</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2431447996</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:05:02</lastRun>
+      <DDName>CN 3rd Party: Metadata Supply to Compliance Navigator - CN Collections - Daily - Full</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2480616499</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-25T15:02:07</lastRun>
+      <DDName>Content Supply to PDF Archive - WEB</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2007182161</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-05-15T23:02:53</lastRun>
+      <DDName>Metadata Supply to Compliance Navigator - Biblio - Daily - Delta</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-3093954200</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-25T15:00:33</lastRun>
+      <DDName>Content Supply to PDF Archive - PRINT</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1878591509</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-23T23:29:13</lastRun>
+      <DDName>ASTMs relevant to Compliance Navigator</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-3645824866</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2018-10-03T23:06:40</lastRun>
+      <DDName>Shop Metadata Full DD - individual XML (LIVE)</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1808806124</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-10-31T00:00:00</lastRun>
+      <DDName>CN Term mapping DD</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-2381263577</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:51:05</lastRun>
+      <DDName>BSI Content supply to customers</DDName>
+      <DDType>Product</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>No</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-8916733120</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:45:28</lastRun>
+      <DDName>ASTM metadata PODW</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-4216241048</ddid>
+      <eligibility>Yes</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2020-01-24T23:44:48</lastRun>
+      <DDName>Metadata Supply to Shop - Scope and Abstract - Daily - Delta</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>Yes</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+    <usage>
+      <ddid>DD-1081134776</ddid>
+      <eligibility>No</eligibility>
+      <fallOutOfEligibility>No</fallOutOfEligibility>
+      <readiness>No</readiness>
+      <override>Exclude</override>
+      <lastRun>2019-05-02T23:22:34</lastRun>
+      <DDName>BSI Metadata Supply to Customers - Sample - Test DD</DDName>
+      <DDType>Outgoing Feed</DDType>
+      <isQualifyingEligiblity>No</isQualifyingEligiblity>
+      <readinessSentToSCR>NA</readinessSentToSCR>
+    </usage>
+  </usages>
+  <dates>
+    <date>
+      <DateCreatedValue>1999-03-19</DateCreatedValue>
+      <dateFormat>Date</dateFormat>
+    </date>
+    <date>
+      <DateOfConfirmationValue>2017-05-01</DateOfConfirmationValue>
+      <dateFormat>Date</dateFormat>
+    </date>
+    <date>
+      <DateProposedForConfirmationValue>2012-07-01</DateProposedForConfirmationValue>
+      <dateFormat>Date</dateFormat>
+    </date>
+    <date>
+      <DateUnderReviewValue>2017-02-01</DateUnderReviewValue>
+      <dateFormat>Date</dateFormat>
+    </date>
+    <date>
+      <DateVersionPublishedValue>1976-04-30</DateVersionPublishedValue>
+      <dateFormat>Date</dateFormat>
+    </date>
+    <date>
+      <DateEffectiveValue>1976-04-30</DateEffectiveValue>
+      <dateFormat>Date</dateFormat>
+    </date>
+    <date>
+      <DateExpiryStatusValue>2017-03-31</DateExpiryStatusValue>
+      <dateFormat>Date</dateFormat>
+    </date>
+  </dates>
+  <notes>
+    <note>
+      <noteCreatedBy>bsi:migration</noteCreatedBy>
+    </note>
+  </notes>
+  <sales>
+    <salesMaterialGroup>
+      <salesMaterialGroupNumber>21</salesMaterialGroupNumber>
+    </salesMaterialGroup>
+    <salesPrice>
+      <memberPrice>56.00</memberPrice>
+      <nonMemberPrice>112.00</nonMemberPrice>
+    </salesPrice>
+    <salesStatus>1</salesStatus>
+    <dateSalesStatusValidFrom>1999-02-17</dateSalesStatusValidFrom>
+    <salesPriceGroup>06</salesPriceGroup>
+  </sales>
+  <relations>
+    <relation>
+      <uncategorisedReference id="PrimaryDesignator">BS 970:Part 4|BS 3763|BS 4545|PD 5686|PD 6203</uncategorisedReference>
+      <uncategorisedReference id="Description">uncategorisedReferences</uncategorisedReference>
+    </relation>
+  </relations>
+  <taxonomies>
+    <taxonomy>
+      <taxonomyName>Module Code</taxonomyName>
+      <taxonomyVersion>7</taxonomyVersion>
+      <taxonomyTerm>GBM05</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>Root Terms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>Orthodontic appliances</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>ICS</taxonomyName>
+      <taxonomyVersion>7</taxonomyVersion>
+      <taxonomyTerm>11.060.10 Dental materials</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>Root Terms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>Tape</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>Root Terms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>Tensile strength</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>Root Terms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>Wrapping tests</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>Root Terms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>Austenitic steels</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>Sector Code</taxonomyName>
+      <taxonomyVersion>7</taxonomyVersion>
+      <taxonomyTerm>GBSB</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>Root Terms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>Dental materials</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>Root Terms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>Wires</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>Root Terms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>Dimensions</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>Root Terms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>Tensile testing</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>Root Terms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>Stainless steels</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>Root Terms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>Test equipment</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>Root Terms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>Bend testing</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>Category-Terms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>Device Specific</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>146</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>177</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>241</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>260</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>313</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>328</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>329</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>334</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>335</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>488</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>979</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>981</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>998</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>1689</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>1695</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN cterms</taxonomyName>
+      <taxonomyVersion>3</taxonomyVersion>
+      <taxonomyTerm>1696</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN pterms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>41397</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN pterms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>42374</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN pterms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>16204</taxonomyTerm>
+    </taxonomy>
+    <taxonomy>
+      <taxonomyName>CN pterms</taxonomyName>
+      <taxonomyVersion>1</taxonomyVersion>
+      <taxonomyTerm>41677</taxonomyTerm>
+    </taxonomy>
+  </taxonomies>
+  <attributes>
+    <contentAttribute>
+      <contentMeta>
+	<contentRelationshipType>bsiPRINTPDF</contentRelationshipType>
+	<stockFileName>00042234-PRINT.pdf</stockFileName>
+	<stockFileType>PDF</stockFileType>
+	<stockFileVersion>1.0</stockFileVersion>
+	<stockFileDescription/>
+	<stockFilesize>1764KB</stockFilesize>
+	<stockPageCount>10</stockPageCount>
+	<RSuiteID>2836743</RSuiteID>
+      </contentMeta>
+      <stockMeta>
+	<stockProductFormat>
+	  <formatType>PDF</formatType>
+	  <stockPhysicalSize>A4</stockPhysicalSize>
+	  <stockHeight/>
+	  <stockWidth/>
+	</stockProductFormat>
+	<stockBinding/>
+	<stockSupplyType>POD</stockSupplyType>
+	<unlockedContent>false</unlockedContent>
+	<documentPreviewFlag>Y</documentPreviewFlag>
+	<documentPreviewLimitOverride/>
+	<contentStatus>Published</contentStatus>
+      </stockMeta>
+    </contentAttribute>
+    <contentAttribute>
+      <contentMeta>
+	<contentRelationshipType>sourcePDF</contentRelationshipType>
+	<stockFileName>00042234-VOR.pdf</stockFileName>
+	<stockFileType>PDF</stockFileType>
+	<stockFileVersion>1.0</stockFileVersion>
+	<stockFileDescription/>
+	<stockFilesize>310KB</stockFilesize>
+	<stockPageCount>10</stockPageCount>
+	<RSuiteID>2836759</RSuiteID>
+      </contentMeta>
+      <stockMeta>
+	<stockProductFormat>
+	  <formatType>PDF</formatType>
+	  <stockPhysicalSize>A4</stockPhysicalSize>
+	  <stockHeight/>
+	  <stockWidth/>
+	</stockProductFormat>
+	<stockBinding/>
+	<stockSupplyType>POD</stockSupplyType>
+	<unlockedContent>false</unlockedContent>
+	<documentPreviewFlag>Y</documentPreviewFlag>
+	<documentPreviewLimitOverride/>
+	<contentStatus>Published</contentStatus>
+      </stockMeta>
+    </contentAttribute>
+    <contentAttribute>
+      <contentMeta>
+	<contentRelationshipType>bsiWEBPDF</contentRelationshipType>
+	<stockFileName>00042234-WEB.pdf</stockFileName>
+	<stockFileType>PDF</stockFileType>
+	<stockFileVersion>1.0</stockFileVersion>
+	<stockFileDescription/>
+	<stockFilesize>289KB</stockFilesize>
+	<stockPageCount>10</stockPageCount>
+	<RSuiteID>2836767</RSuiteID>
+      </contentMeta>
+      <stockMeta>
+	<stockProductFormat>
+	  <formatType/>
+	  <stockPhysicalSize/>
+	  <stockHeight/>
+	  <stockWidth/>
+	</stockProductFormat>
+	<stockBinding/>
+	<stockSupplyType/>
+	<unlockedContent>false</unlockedContent>
+	<documentPreviewFlag/>
+	<documentPreviewLimitOverride/>
+	<contentStatus>Published</contentStatus>
+      </stockMeta>
+    </contentAttribute>
+    <contentAttribute>
+      <contentMeta>
+	<contentRelationshipType>bsiXML</contentRelationshipType>
+	<stockFileName>00042234.zip</stockFileName>
+	<stockFileType>ZIP</stockFileType>
+	<stockFileVersion>1.0</stockFileVersion>
+	<stockFileDescription/>
+	<stockFilesize>299KB</stockFilesize>
+	<stockPageCount/>
+	<RSuiteID>2836779</RSuiteID>
+      </contentMeta>
+    </contentAttribute>
+  </attributes>
+  <lastModifiedDate>2020-01-25T15:04:39.3353997Z</lastModifiedDate>
+</metadata>
